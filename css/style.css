@@ -1,0 +1,72 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 151, 151);
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/wallpapersden.com_anonymous-hacker-working_1280x1024.jpg) ;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+nav {
+    margin-right: 15px;
+}
+nav>a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(59, 87, 100);
+    color: rgb(252, 252, 253);
+    }
+main {
+    padding: 15px;
+    background-color: rgb(240, 245, 245);
+}
+.banner {
+    height: 400px;
+    width: 100%;
+    border: 2px solid;
+}
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-item {
+    text-align: center;
+    flex: 1;
+    text-align: -webkit-center ;
+}
+.profile-tambahan {
+    flex: 2;
+    
+}
+.profile-icon-1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    background-image: url(../assets/1.jfif);
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile-icon-2 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    background-image: url(../assets/2.jfif);
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile-icon-3 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    background-image: url(../assets/3.jfif);
+    background-size: cover;
+    border-radius: 50%;
+}
+
